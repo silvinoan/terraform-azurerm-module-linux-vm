@@ -1,5 +1,5 @@
 module "linux_virtual_machine" {
-  source = "git@github.com:BancoArbi/terraform-azurerm-module-linux-vm.git?ref=fix/names"
+  source = "git@github.com:silvinoan/terraform-azurerm-module-linux-vm.git?ref=fix/names"
 
   depends_on = [
     azurerm_resource_group.this, azurerm_key_vault.this

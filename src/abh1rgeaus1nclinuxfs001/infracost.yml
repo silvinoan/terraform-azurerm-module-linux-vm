@@ -1,0 +1,6 @@
+version: 0.1
+
+projects:
+  - path: src/abh1rgeaus1nclinuxfs001
+    name: prd
+    usage_file: prd-usage.yml
